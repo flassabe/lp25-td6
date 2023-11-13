@@ -224,10 +224,6 @@ Leur utilisation est définie en détail dans les manuels accessibles avec la co
 
 Écrire un programme nommé _anagramme.c_ qui teste si une phrase passée en paramètre du programme est un anagramme (elle se lit pareillement du début à la fin de la fin au début, en ignorant les espaces). Par exemple, la phrase "_Esope reste ici et se repose_" est un anagramme.
 
-### Gestion de la mémoire
-
-La mémoire peut être acquise avec les fonctions **malloc** et **realloc** pour obtenir ou redimensionner de la mémoire préalablement acquise. Toute allocation avec **malloc** doit être ensuite libérée par la fonction **free**. Des exemples d'allocations sont définis ci-dessus avec les tableaux dynamiques.
-
 ## Passer un paramètre au programme
 
 Nous allons maintenant changer la signature (le nom, le type de retour, et les paramètres de la fonction) pour lui permettre d'accepter des paramètres et de les traiter. Pour ce faire, `int main()` devient `int main(int argc, char *argv[])`. Ces deux paramètres ont des valeurs précises :
